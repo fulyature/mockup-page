@@ -1,0 +1,57 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background: linear-gradient(to right, rgb(85, 179, 233), rgb(171, 9, 230));
+}
+h1 {
+  font-family: "Rubik Vinyl", cursive;
+  color: white;
+  margin-top: 30px;
+  font-size: 80px;
+  text-align: center;
+}
+button {
+  text-align: right;
+  margin: 20px;
+  border-radius: 15%;
+  width: 100px;
+  height: 100px;
+  background-color: rgb(234, 118, 118);
+  color: white;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 0;
+}
+button a {
+  font-size: 1rem;
+}
+.card {
+  display: flex;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: rgb(0 0 0 / 30%) 0px 19px 38px, rgb(0 0 0 / 22%) 0px 15px 12px;
+  width: 80%;
+  min-width: 1000px;
+}
+.img {
+  width: 300px;
+}
+h2 {
+  color: rgb(244, 164, 96);
+  font-size: 32px;
+  font-family: "Times New Roman", Times, serif;
+}
+.text {
+  margin-left: 10px;
+}
+.button {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
